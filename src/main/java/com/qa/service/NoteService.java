@@ -22,7 +22,7 @@ public class NoteService {
         return this.repo.findAll();
     }
 
-    public Note CreateNote (Note note){
+    public Note createNote (Note note){
         return this.repo.save(note);
     }
 
